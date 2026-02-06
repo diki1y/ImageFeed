@@ -161,13 +161,14 @@
                                     <outlet property="delegate" destination="LqH-97-zcb" id="eDw-Fi-RSC"/>
                                 </connections>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaL-hH-8GL" userLabel="Button_share">
-                                <rect key="frame" x="170" y="795" width="74" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaL-hH-8GL" userLabel="Button_share">
+                                <rect key="frame" x="182" y="795" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="emd-PY-6YM"/>
+                                    <constraint firstAttribute="width" constant="50" id="qhj-LJ-MU3"/>
+                                    <constraint firstAttribute="height" constant="50" id="s2i-sd-Mkx"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="share_button"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="share_button"/>
                                 <connections>
                                     <action selector="didTapShareButton:" destination="LqH-97-zcb" eventType="touchUpInside" id="Isg-pY-GwH"/>
                                 </connections>
